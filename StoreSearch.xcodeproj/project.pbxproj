@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		437B37EA1AA5054E00B68441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437B37E91AA5054E00B68441 /* AppDelegate.swift */; };
-		437B37EC1AA5054E00B68441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437B37EB1AA5054E00B68441 /* ViewController.swift */; };
+		437B37EC1AA5054E00B68441 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437B37EB1AA5054E00B68441 /* SearchViewController.swift */; };
 		437B37EF1AA5054E00B68441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437B37ED1AA5054E00B68441 /* Main.storyboard */; };
 		437B37F11AA5054E00B68441 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437B37F01AA5054E00B68441 /* Images.xcassets */; };
 		437B37F41AA5054E00B68441 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437B37F21AA5054E00B68441 /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		437B37E41AA5054E00B68441 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437B37E81AA5054E00B68441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		437B37E91AA5054E00B68441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		437B37EB1AA5054E00B68441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		437B37EB1AA5054E00B68441 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		437B37EE1AA5054E00B68441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		437B37F01AA5054E00B68441 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		437B37F31AA5054E00B68441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				437B37E91AA5054E00B68441 /* AppDelegate.swift */,
-				437B37EB1AA5054E00B68441 /* ViewController.swift */,
+				437B37EB1AA5054E00B68441 /* SearchViewController.swift */,
 				437B37ED1AA5054E00B68441 /* Main.storyboard */,
 				437B37F01AA5054E00B68441 /* Images.xcassets */,
 				437B37F21AA5054E00B68441 /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437B37EC1AA5054E00B68441 /* ViewController.swift in Sources */,
+				437B37EC1AA5054E00B68441 /* SearchViewController.swift in Sources */,
 				437B37EA1AA5054E00B68441 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
